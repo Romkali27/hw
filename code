@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+    public class HomeWork {
+
+        int ans;int ans1;int ans2;
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("What is the capital of Great Britain? 1. Moscow or 2. Madrid or 3. London");
+            int ans = sc.nextInt ();
+
+ if (ans==3)
+     System.out.println ("That's the right answer!");
+
+ else if (ans!=3)
+            System.out.println("That's not the right answer...");
+System.out.println ("How many letters are there in russian alphabet? 1. 30 or 2. 33 or 3. 35");
+int ans1 = sc.nextInt();
+if (ans1==2)
+ System.out.println ("That's the right answer!");
+else if (ans1 != 2)
+System.out.println ("That's not the right answer...");
+ System.out.println ("Did you like the test? 1. No or 2. Not really or 3. Of course!");
+         int ans2 = sc.nextInt();
+         if (ans2 == 3)
+         System.out.println ("That's the right answer!");
+       else if (ans2!=3)
+System.out.println ("That's not the right answer..."); }}
